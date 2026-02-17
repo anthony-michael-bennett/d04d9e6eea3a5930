@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "expr-eval": "^2.0.2",
+    "mathjs": "^15.1.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Docker: Attach to Node",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "address": "localhost",
+      "localRoot": "${workspaceFolder}", // Maps local workspace to container path
+      "remoteRoot": "/app",      // Root path of code *inside* the container
+      "protocol": "inspector"
+    }
+  ]
+}
